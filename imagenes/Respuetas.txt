@@ -1,0 +1,17 @@
+Tarea sin hilos
+1.Respecto al tiempo de ejecucion se puede notar que la tarea 1(a diferencia de la 2 y la 3) tiene un tiempo de finalizacion muy lento, creo que si es predecible el tiempo, no con exactitud, pero si en un promedio, en mi caso la finalizacion de todas las tareas tardaban un total de 13 segundos.
+2.Un proceso o funcion de maxima velocidad posible podria ser la edición de un vídeo y renderizado de efectos visuales
+3.Un proceso de velocidad de respuesta no dependiente de la velocidad de procesamiento puede ser la medición de la temperatura ambiente
+
+Tarea con hilos 
+1.Respecto al tiempo de ejecucion mejoro bastante, tardando 4 segundos menos en finalizar todas las tareas, a diferencia de la tarea sin hilos
+2.Se puede ver que las tareas se ejecutan segun cual tarde menos y no en cual sea su orden establecido 
+3.Un escenario real donde el multi-hilado puede mejorar considerablemente el tiempo de respuesta de un sistema puede ser las plataformas de streaming de video 
+
+Sumador-Restador con race
+1.Respecto al tiempo de  ejecucion se puede notar que es muy rapido
+2.Sucede que el valor final acumulado empieza con un 5000 positivo, en la siguiente ejecucion un -4995 y en las proximas ejecuciones dara un -5000
+
+Sumador-Restador sin race 
+1.El valor final del acumulador nos arroja siempre 0
+2.Respecto al tiempo de ejecucion no note diferencia de tiempos en la ejecucion con el sumador-restador con race
